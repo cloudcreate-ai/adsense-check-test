@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@cloudcreate/adsense-check-core": "^1.0.0"
+    "@cloudcreate/adsense-check-core": "file:../adsense-check-core"
   },
   "devDependencies": {
     "@types/node": "^22.15.0",
