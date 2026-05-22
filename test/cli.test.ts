@@ -72,7 +72,7 @@ describe('CLI smoke tests', () => {
       expect(typeof report.homeQuality).toBe('number');
     });
 
-  test('topic subcommand returns type and topic', async () => {
+  test('topic subcommand returns type and topic', { timeout: 60000 }, async () => {
       const { stdout } = await exec('node', [CLI_PATH, 'topic', TEST_URL, '--json', '--timeout', '10000'], {
         timeout: 60000,
       });

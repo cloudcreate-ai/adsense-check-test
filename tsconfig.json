@@ -8,7 +8,8 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "types": ["vitest/globals", "node"]
   },
   "include": ["test/**/*.ts"],
   "exclude": ["node_modules"]
