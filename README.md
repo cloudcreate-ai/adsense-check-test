@@ -67,3 +67,9 @@ TEST_SITE_URL=https://yoursite.com npm run test
 ## License
 
 MIT
+
+## Links
+
+- Homepage: https://cloudcreate.ai
+- Issues: https://github.com/cloudcreate-ai/adsense-check-test/issues
+- Contact: contact@cloudcreate.ai
